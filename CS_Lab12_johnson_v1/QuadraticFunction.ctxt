@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=aa\ bb\ cc
+comment0.target=QuadraticFunction(int,\ int,\ int)
+comment1.params=x
+comment1.target=double\ valueAt(int)
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment3.params=k
+comment3.target=boolean\ equals(QuadraticFunction)
+numComments=4
