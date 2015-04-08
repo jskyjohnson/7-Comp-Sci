@@ -25,7 +25,7 @@ public class DeckTester {
         System.out.println(newDeck);
         
         String[] ranks1 = new String[52];
-        for(int i = 0; i < 52; i++){
+        for(int i = 0; i < 13; i++){
             String temp = "";
             if( i%13 == 0){
                 temp = "Ace";
@@ -50,7 +50,7 @@ public class DeckTester {
             //System.out.println(temp);
         }
         String[] suits1 = new String[52];
-        for(int i = 0; i < 52; i++){
+        for(int i = 0; i < 4; i++){
             String temp = "";
             if(i < 14){
                 temp = "Spade";
@@ -64,7 +64,9 @@ public class DeckTester {
             suits1[i] = temp;
             //System.out.println(temp);
         }
-        int[] values1 = new int[52];
+        String[] suits2 = {"Spades", "Clubs", "Hearts", "Diamonds"};
+        
+        int[] values1 = new int[13];
         for(int i = 0; i < 52; i++){
             int temp = 0;
             if(i < 13){
@@ -83,7 +85,7 @@ public class DeckTester {
            //System.out.println(ranks1[i]+" "+ suits1[i]+" "+values1[i]);
         }
         
-        Deck Twenty1 = new Deck(ranks1, suits1, values1);
+        Deck Twenty1 = new Deck(ranks1, suits2, values1);
         System.out.println(Twenty1);
     }
 }
