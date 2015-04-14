@@ -1,0 +1,5 @@
+1. (5,6) (5,6)
+
+2. yes because in all other instances you're taking 2 out at a time. The only way to have an odd number in the deck is by removing an add number of JQK
+
+3. If one keeps track of the cards already played, they'ed want to stick away from cards that have already been used. That way there's more chance of the other cards that don't require the specific other pair.

@@ -1,5 +1,3 @@
-package Buggy1;
-
 /**
  * Card.java
  *
